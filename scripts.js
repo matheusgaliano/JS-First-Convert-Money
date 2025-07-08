@@ -9,7 +9,7 @@ function convertValues() {
     const dolarToday = 5.2
     const euroToday = 6.2
     const libraToday = 7.39
-    const bitcoinToday = 109.076
+    const bitcoinToday = 109076
 
 
     if (currencySelect.value == "dolar") {
@@ -36,7 +36,7 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "BTC"
-        }).format(inputCurrencyValue / bitcoinToday)
+        }).format(inputCurrencyValue * bitcoinToday)
     }
 
 
