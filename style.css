@@ -116,7 +116,6 @@ section {
     font-size: 20px;
 }
 
-/* MEDIA QUERY PARA RESPONSIVIDADE */
 @media (max-width: 450px) {
     main {
         padding: 32px 16px 20px;
